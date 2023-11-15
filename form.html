@@ -7,8 +7,8 @@
   </head>
   <body>
     <form action="/action.php">
-      USERname
-      <input type="text" placeholder="Your name" />
+      <label> USERname <input type="text" placeholder="Your name" /></label>
+
       <br />
       Date of Birth
 
@@ -16,7 +16,7 @@
       <br />
       Password
 
-      <input type="password" placeholder="Enter password" />
+      <input type="password" placeholder="Enter password" name="USERname" />
       <br />
       ACC .Number
       <input type="number" />
@@ -27,6 +27,17 @@
       Time
       <input type="time" />
       <br />
+
+      <button>Submit</button>
+      <button type="reset"></button>
+    </form>
+
+    <hr />
+    <form action="https://www.google.com/search?q=hello">
+      <input type="text" name="q" placeholder="Enter you want to search" />
+      <button>Submit</button>
+      <input type="checkbox" name="age" id="age" />
+      <label for="age"> i am 18+</label>
     </form>
   </body>
 </html>
