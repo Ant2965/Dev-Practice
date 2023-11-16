@@ -1,4 +1,19 @@
 *{
     font-family: 'Courier New';
-    background-color: blue;
+}
+
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+
+#login{
+    background-color: #ffffff;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
 }
