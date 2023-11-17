@@ -27,3 +27,22 @@ p a{
     color: purple;
     background-color: yellow;
 }
+
+#login{
+    background-color: #ffffff;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: green;
+    color: white;
+}
+
+p a{
+    color: purple;
+    background-color: yellow;
+}
