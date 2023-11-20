@@ -57,3 +57,41 @@ p a{
 #login{
     background-color: #ffffff;
 }
+
+p+h3{
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: aqua;
+    
+}
+
+
+div > input{
+    background-color: darksalmon;
+}
+
+
+input[type="text"]{
+    color: blueviolet;
+
+}
+input[type="password"]{
+    color: green;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+h3:hover{
+    text-decoration: none;
+    animation-duration: 0.5s;
+}
