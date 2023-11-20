@@ -95,3 +95,12 @@ h3:hover{
     text-decoration: none;
     animation-duration: 0.5s;
 }
+
+
+h1::first-letter{
+    color: black;
+}
+
+p::selection{
+    background-color: palegreen;
+}
