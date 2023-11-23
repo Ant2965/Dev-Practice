@@ -1,0 +1,20 @@
+.a{
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: rgb(215, 175, 181);
+    transition: 1s;
+
+}
+.des{
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    width: 500px;
+}
+.a:hover{
+
+    box-shadow: 5px 5px 3px black;
+    border-radius: 10%;
+}
