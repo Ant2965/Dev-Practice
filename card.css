@@ -18,3 +18,18 @@ img{
     box-shadow: 5px 5px 3px black;
     border-radius: 10%;
 }
+
+
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 10px;
+    display: inline flex;
+}
+#static{
+    background-color: yellow;
+}
