@@ -31,6 +31,7 @@ button{
     border: 5px solid green;
     padding-left: 1em;
     padding-right: 1em;
+    rotate: 45deg;
 }
 
 #hi{
@@ -43,4 +44,5 @@ button{
 #hi:hover{
     border-radius: 50%;
     background-color: black;
+    transform: scale(2,3);
 }
