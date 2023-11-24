@@ -10,9 +10,39 @@
     height: 75px;
     background-color: brown;
 
-    border-radius: 0 0 50px 50px;
-
+   border-radius: 0 0 50px 50px;
     position: absolute;
+    top: 250px;
+    left: 100px;
+
+}
+
+
+#eye{
+    height: 75px;
+    width: 75px;
+    background-color: black;
+    margin: 25px;
+
+    border-radius: 50%;
+    display: inline flex;
+    position: relative;
+    left: 70px;
+    top: 35px;
+    
+}
+
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+    position: relative;
+    border-radius: 50%;
+    left: 30px;
+    top: 35px;
+
+
+
 
 
 }
