@@ -17,3 +17,12 @@
     left: 16px;
     line-height: 60px;
 }
+
+
+.sidebar_menu {
+    position: fixed;
+    /*left: -350px;*/
+    height: 100vh;
+    width: 300px;
+    background-color: antiquewhite,0.1;
+}
