@@ -25,4 +25,35 @@
     height: 100vh;
     width: 300px;
     background-color: antiquewhite,0.1;
+    
+}
+.sidebar_menu.logo {
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+
+
+}
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sidebar_menu .btn_two{
+    color: green;
+    font-size: 30px;
+    line-height: 60px;
+    position: absolute;
+    left: 275px;
+}
+
+
+.sidebar_menu .menu {
+    position: absolute;
+    width: 100%;
+    top: 80px;
 }
