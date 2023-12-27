@@ -57,3 +57,14 @@
     width: 100%;
     top: 80px;
 }
+.sidebar_menu .menu li {
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+
+.sidebar_menu .menu i,a  {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    }
