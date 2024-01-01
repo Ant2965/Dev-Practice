@@ -13,3 +13,12 @@ console.log(mess.trim())
 let str = ' Random '
 
 console.log(str.toUpperCase())
+
+
+let a =  '               ilovecosding                              '
+console.log(a.slice(1,4))
+console.log(a)
+console.log(a.indexOf('Love'))
+
+console.log(a.toUpperCase().trim())
+
