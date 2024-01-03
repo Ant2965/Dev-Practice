@@ -22,3 +22,5 @@ console.log(a.indexOf('Love'))
 
 console.log(a.toUpperCase().trim())
 
+
+/*I will be back again today*/
