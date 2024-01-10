@@ -54,4 +54,7 @@ const post= {
 };
 
 
+student['name']
+
+
 
