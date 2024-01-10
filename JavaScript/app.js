@@ -45,4 +45,13 @@ const item ={
 };
 
 
+const post= {
+    username: "ant",
+    content: "THis is my bithday post",
+    likes: 169,
+    repost: 5,
+    tags: ["@apnacollege","@delta"]
+};
+
+
 
