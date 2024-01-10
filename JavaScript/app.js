@@ -32,7 +32,8 @@ console.log(a.toUpperCase().trim())
 const  student = 
 {name: "Ant",
 age: 20,
-marks: 94.4}
+marks: 94.4,
+city: 'delhi'}
 
 
 let stu=["shra",23,94];
@@ -55,6 +56,28 @@ const post= {
 
 
 student['name']
+
+
+const classinfo={
+    Ant: {
+
+        grade: "A+",
+        city:"Delho"
+
+    },
+
+    Avni:{
+        grade: "A+",
+        city: "Delho"
+
+    },
+
+    vidhi:{
+        grade: "A+",
+        city: "Delho"
+    }
+};
+
 
 
 
