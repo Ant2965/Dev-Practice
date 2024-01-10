@@ -28,13 +28,21 @@ console.log(a.toUpperCase().trim())
 /*I will be back again today*/
 
 
-
-let student = 
+/*can be let*/
+const  student = 
 {name: "Ant",
 age: 20,
 marks: 94.4}
 
 
 let stu=["shra",23,94];
+
+
+const item ={
+    price: 100.99,
+    Discount: 50,
+    colors:['red','black']
+};
+
 
 
