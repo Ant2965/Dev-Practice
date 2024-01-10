@@ -26,3 +26,15 @@ console.log(a.toUpperCase().trim())
 /*I will be back again today*/
 /*I will be back again today*/
 /*I will be back again today*/
+
+
+
+let student = 
+{name: "Ant",
+age: 20,
+marks: 94.4}
+
+
+let stu=["shra",23,94];
+
+
