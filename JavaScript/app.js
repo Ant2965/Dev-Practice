@@ -85,7 +85,7 @@ Math.floor(Math.random()*10);
 
 
 
-const max= prompt("Enter the max number");
+/*const max= prompt("Enter the max number");
 
 const random= Math.floor(Math.random()*max)+1;
 console.log(random);
@@ -108,7 +108,7 @@ else{
     guess=prompt("your guess was wrong");
 }
 }
-
+*/
 
 
 function print(){
@@ -118,3 +118,11 @@ function print(){
 }
 
 print();
+
+
+function printn(name){
+    console.log(name)
+}
+
+
+printn("Ant");
