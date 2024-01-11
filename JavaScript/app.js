@@ -84,3 +84,28 @@ Math.floor(Math.random()*10);
 
 
 
+
+const max= prompt("Enter the max number");
+
+const random= Math.floor(Math.random()*max)+1;
+console.log(random);
+
+let guess =prompt("Guess the number");
+
+
+while(true){
+    if(guess=="quit"){
+    console.log("User quit");
+break;
+}
+
+if(guess==random){
+    console.log("Yya");
+    break;
+
+}
+else{
+    guess=prompt("your guess was wrong");
+}
+}
+
