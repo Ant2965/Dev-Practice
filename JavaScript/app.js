@@ -78,6 +78,9 @@ const classinfo={
     }
 };
 
+Math.random()*10
+let st=Math.random();
+Math.floor(Math.random()*10);
 
 
 
