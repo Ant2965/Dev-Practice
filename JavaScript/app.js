@@ -126,3 +126,17 @@ function printn(name){
 
 
 printn("Ant");
+
+let sum =334;
+
+function calsum(a,b){
+    let sum =a+b;
+
+    console.log(sum);
+}
+
+calsum(4,4);
+
+
+
+console.log(sum);
