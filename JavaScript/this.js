@@ -44,13 +44,20 @@ const cube = (c) => {
 
 cube(5);
 
-
-
 const power = (a, b) => {
     return a ** b;
 }
 
-
-
 const cube1 = (a, b) => a ** b;
+
+
+console.log("hello")
+
+setTimeout(()=>{
+    console.log("apnacollege")
+},4000)
+
+
+
+console.log("welcome to")
 
