@@ -27,3 +27,20 @@ obj.forEach((student)=>{
 })
 
 
+
+
+// MAP
+
+
+let num =[1,2,3,4,5,6];
+
+
+let double = num.map((el)=>{
+    return el*2;
+});
+
+
+let gpa = obj.map((el)=>{
+    return el.marks/10;
+})
+
