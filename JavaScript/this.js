@@ -9,3 +9,22 @@ const stu ={
         console.log(`${this.name} got avg marks = ${av}`);
     }
 }
+
+
+
+// try catch
+
+
+
+console.log("hello");
+try{
+console.log(a);
+}
+
+catch(err){
+    console.log("Error caught a is not defined")
+
+    console.log(err)
+}
+
+console.log("chalra huun");
