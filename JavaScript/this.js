@@ -28,3 +28,14 @@ catch(err){
 }
 
 console.log("chalra huun");
+
+
+
+const arrow = (a,b) => {
+    console.log(a+b);
+}
+
+
+arrow(2,4);
+
+
