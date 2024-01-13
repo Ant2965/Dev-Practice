@@ -38,4 +38,10 @@ const arrow = (a,b) => {
 
 arrow(2,4);
 
+const cube =(c)=>{
+    console.log(c*c*c);
+}
+
+cube(5);
+
 
