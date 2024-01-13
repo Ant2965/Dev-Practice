@@ -1,11 +1,11 @@
-const stu ={
-    name:5,
-    class:6,
-    school:34,
+const stu = {
+    name: 5,
+    class: 6,
+    school: 34,
 
-    getAvg(){
+    getAvg() {
         console.log(this);
-        let av=(this.name+this.class+this.school)/3;
+        let av = (this.name + this.class + this.school) / 3;
         console.log(`${this.name} got avg marks = ${av}`);
     }
 }
@@ -17,11 +17,11 @@ const stu ={
 
 
 console.log("hello");
-try{
-console.log(a);
+try {
+    console.log(a);
 }
 
-catch(err){
+catch (err) {
     console.log("Error caught a is not defined")
 
     console.log(err)
@@ -29,19 +29,28 @@ catch(err){
 
 console.log("chalra huun");
 
+// ARROW FUNCTION
 
-
-const arrow = (a,b) => {
-    console.log(a+b);
+const arrow = (a, b) => {
+    console.log(a + b);
 }
 
 
-arrow(2,4);
+arrow(2, 4);
 
-const cube =(c)=>{
-    console.log(c*c*c);
+const cube = (c) => {
+    console.log(c * c * c);
 }
 
 cube(5);
 
+
+
+const power = (a, b) => {
+    return a ** b;
+}
+
+
+
+const cube1 = (a, b) => a ** b;
 
