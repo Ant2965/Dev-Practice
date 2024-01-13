@@ -52,12 +52,53 @@ const cube1 = (a, b) => a ** b;
 
 
 console.log("hello")
-
+for(let i=0;i<5;i++){
 setTimeout(()=>{
     console.log("apnacollege")
 },4000)
-
+}
 
 
 console.log("welcome to")
 
+let id=setInterval(()=>{
+console.log("Hello i am interval")
+
+},4000)
+
+    // setInterval(() => {
+        
+    // }, );
+
+    console.log(id);
+
+
+    clearInterval(id);
+
+
+    const stud ={
+        name:'ant',
+        marks: 90,
+
+        prop: this,
+
+
+        getname: function(){
+            return this.name;
+        },
+    }
+
+    const sq=(a)=>{
+        console.log(a*a);
+    }
+
+    //n=>(n*n);
+
+    let id3=setInterval(()=>{
+        console.log("helll")
+    }, 2000);
+
+    setTimeout(()=>{
+        clearInterval(id3);
+        console.log("clear interval ran")
+    },10000);
