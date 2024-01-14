@@ -116,3 +116,37 @@ let aba = (a,b)=>{
     return a+b;
 }
 
+
+
+// EVERY 
+
+
+let avni = [2,4,6,8,10,11];
+
+// let b=avni.some((el)=>{
+//     return el%2==0;
+// })
+
+
+// let summ=avni.reduce((acc,el)=>{
+//     return acc+el;
+
+// })
+
+
+let doub=avni.map((el)=>{
+    return el*2;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
