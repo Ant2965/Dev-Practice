@@ -65,3 +65,50 @@ let arrr=[2,4,6,8,67].every((el)=>{
 
 //    SOME FUNCTION    Logical OR operator
 
+
+// REDUCE FUNCTION
+
+
+let nom = [1,2,3,45,1];
+
+let finalvalue = nom.reduce((res,el)=>{
+
+    console.log(res);
+    return res+el;
+});
+
+console.log(finalvalue)
+
+
+
+
+let max=[1,23,3,44,54,65,6,56,433443,344,3,5,45,45,34,,54,4,4343,5,6,66];
+
+let maxi= -1;
+
+for(let i=0;i<max.length;i++){
+    if(max[i]>maxi){
+        maxi=max[i];
+    }
+}
+console.log(maxi);
+
+let maxie=max.reduce((maxi,el)=>{
+    if(maxi<el){
+        return el;
+
+    }
+    else{
+        return maxi;
+    }
+    console.log(maxi)
+})
+
+
+let sumo = function(a,b){
+    console.log(a+b);
+}
+
+
+sumo(43,3);
+
