@@ -112,3 +112,7 @@ let sumo = function(a,b){
 
 sumo(43,3);
 
+let aba = (a,b)=>{
+    return a+b;
+}
+
