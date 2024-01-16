@@ -140,6 +140,10 @@ let doub=avni.map((el)=>{
 
 
 
+let mini=[23,4,4,5,5,5,6,7,8,9,8,7,4,32,11];
+console.log(Math.min(...mini));
+
+
 
 
 
