@@ -45,4 +45,25 @@ c.classList.add=('newclass')
 c.classList
 //DOMTokenList ['ant,antt', add: 'newclass', value: 'ant,antt']
 
-console.log(c.classList)
+console.log(c.classList )
+
+
+
+let head=document.querySelector("h1")
+//undefined
+head.classList
+//DOMTokenList [value: '']
+head.cla
+//undefined
+head.classList.add("green")
+//undefined
+head.cla
+//undefined
+head.classList
+//DOMTokenList ['green', value: 'green']
+head.classList.remove("green")
+//undefined
+head.classList
+//DOMTokenList [value: '']
+head.setAttribute('class' , 'green')
+//ndefined//
