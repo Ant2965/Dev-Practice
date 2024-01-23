@@ -25,3 +25,24 @@ for(let i =0;i<links.length;i++){
 for(link of links){
     link.style.backgroundColor='red';
 }
+
+
+let c = document.querySelector('img')
+
+
+c.classList.add='anttt'
+//'anttt'
+c.classList
+//DOMTokenList ['ant,antt', add: 'anttt', value: 'ant,antt']
+c.classList
+//DOMTokenList ['ant,antt', add: 'anttt', value: 'ant,antt']
+c.classList.add='newclass'
+//'newclass'
+c.classList
+//DOMTokenList ['ant,antt', add: 'newclass', value: 'ant,antt']
+c.classList.add=('newclass')
+//'newclass'
+c.classList
+//DOMTokenList ['ant,antt', add: 'newclass', value: 'ant,antt']
+
+console.log(c.classList)
