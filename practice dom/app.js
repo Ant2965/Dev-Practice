@@ -52,6 +52,13 @@ let p = document.createElement('p');
 p.innerHTML="Apna College <b>DELTA</b> Practice"
 
 document.querySelector('body').append(p);
+
+
+let but = document.querySelector('button');
+
+but.onclick=function(){
+    console("Button was clicked");
+};
  
 
 
