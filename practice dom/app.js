@@ -54,12 +54,23 @@ p.innerHTML="Apna College <b>DELTA</b> Practice"
 document.querySelector('body').append(p);
 
 
-let but = document.querySelector('button');
+let but = document.querySelectorAll('button');
 
-but.onclick=function(){
-    console("Button was clicked");
-};
+// but.onclick=function(){
+//     console("Button was clicked");
+// };
+for(but of but){
+    but.onclick=sayhello;
+    but.onmouseenter= function(){
+        console.log("you enter a button")
+    }
+}
  
+function sayhello(){
+    alert("Hello");
+}
+
+but.onclick=sayhello;
 
 
 
