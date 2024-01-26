@@ -42,6 +42,18 @@ input.setAttribute("placeholder","username")
 document.querySelector('#bt').style.backgroundColor='blue'
 document.querySelector('#bt').style.color='white'
 
+let h=document.createElement('h1')
+document.querySelector('body').append(h)
+h.innerHTML="<u>DOM PRACTICE</u>"
+
+
+
+let p = document.createElement('p');
+p.innerHTML="Apna College <b>DELTA</b> Practice"
+
+document.querySelector('body').append(p);
+ 
+
 
 
 
