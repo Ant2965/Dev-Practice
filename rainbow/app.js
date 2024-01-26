@@ -9,9 +9,9 @@ let b7=document.querySelector('.r');
 
 
 
-b1.onclick=()=>{
-    document.querySelector("body").style.backgroundColor='purple'
-}
+// b1.onclick=()=>{
+//     document.querySelector("body").style.backgroundColor='purple'
+// }
 
 b2.onclick=()=>{
     document.querySelector("body").style.backgroundColor='indigo'
@@ -36,3 +36,17 @@ b6.onclick=()=>{
 b7.onclick=()=>{
     document.querySelector("body").style.backgroundColor='red'
 }
+
+
+
+let a=1;
+b1.addEventListener("click",()=>{
+    if(a===1){
+    document.querySelector("body").style.backgroundColor='yellow'
+        a=2;
+    }
+    else{
+    document.querySelector("body").style.backgroundColor='red'
+       a=1;
+    }
+})
