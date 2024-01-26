@@ -1,10 +1,10 @@
-let b1=document.querySelector('.v');
-let b2=document.querySelector('.i');
-let b3=document.querySelector('.b');
-let b4=document.querySelector('.g');
-let b5=document.querySelector('.y');
-let b6=document.querySelector('.o');
-let b7=document.querySelector('.r');
+let b1=document.querySelector('.v');//c
+let b2=document.querySelector('.i');//h
+let b3=document.querySelector('.b');//a
+let b4=document.querySelector('.g');//u
+let b5=document.querySelector('.y');//h
+let b6=document.querySelector('.o');//a
+let b7=document.querySelector('.r');//n
 
 
 
@@ -50,3 +50,23 @@ b1.addEventListener("click",()=>{
        a=1;
     }
 })
+
+let bo=document.createElement("button")
+document.querySelector("bo")
+
+bo.addEventListener("click",()=>{
+
+    let h3 = document.querySelector("h3")
+    h3.innerText= col;
+    console.log("gene random color")
+});
+
+let col= ()=>{
+    let red=Math.floor(Math.random()*255);
+    let green=Math.floor(Math.random()*255);
+    let blue=Math.floor(Math.random()*255);
+
+    let color = `${red},${green},${blue}`;
+
+    return color;
+}
