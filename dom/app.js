@@ -67,3 +67,32 @@ head.classList
 //DOMTokenList [value: '']
 head.setAttribute('class' , 'green')
 //ndefined//
+console.log(head.classList)
+
+
+
+let h4 = document.querySelector('h4');
+//undefined
+h4
+//<//h4>​Publication Info​</h4>​
+h4.parentElement
+//<div class=​"box">​…​</div>​
+h4.children
+//HTMLCollection []length: 0[[Prototype]]: HTMLCollection
+h4.nextElementSibling
+//<ul>​…​</ul>​
+let box =document.querySelector('.box')
+//undefined
+//box.children
+//HTMLCollection(2) [h4, ul]
+//box.childElementCount
+//2
+h4.childElementCount
+//0
+box.nextElementSibling
+//<h2>​Creation & Development​</h2>​
+//box.previousElementSibling
+//<p>​…​</p>​
+//ul//
+
+console.log(`this is the next element sibling ${box.nextElementSibling}`)
