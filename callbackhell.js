@@ -15,3 +15,10 @@ changecolor("red",1000,()=>{
     changecolor("yello",1000)
 })
 
+// This is callback hell;      
+changecolor("red",1000,()=>{
+    changecolor("yello",1000)
+})
+changecolor("red",1000,()=>{
+    changecolor("yello",1000)
+})
