@@ -24,10 +24,6 @@ ul.addEventListener("click",(event)=>{
         let it=event.target.parentElement;
         it.remove();
     }
-    
-
-    
-
 })
 
 
