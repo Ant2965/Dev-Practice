@@ -1,11 +1,18 @@
-let url ="https://catfact.ninja/fact"
 
-fetch(url)
-.then((res)=>{
-    console.log(res);
-    res.json()
-    .then((data)=>{
-        console.log(data.fact);
-    })
+
+let url="http://universities.hipolabs.com/search?name=middle&country="
+let input=document.querySelector("input").value
+const print=()=>{
     
-})
+}
+
+async function getfact(country){
+    try{
+    let res= await axios.get(url+country);
+    console.log(res);
+    }
+    catch(err){
+        console.log(err);
+    }
+}
+getfact();
