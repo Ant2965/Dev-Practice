@@ -11,10 +11,12 @@ app.set(express.static(path.join(__dirname,"public")));
 
 
 let posts =[{
+    id: "1a",
     username : "Apna",
     content : "lov ec o"
 },
 {
+    id: "2b",
     username:"Rahul",
     content:"rqmakck"
 }
@@ -22,6 +24,15 @@ let posts =[{
 
 app.get("/posts",(req,res)=>{
     res.render("index",{posts})
+
+})
+
+app.get("/post/:id",(req,res)=>{
+    let {id} =req.params;
+    console.log(id)
+    let post =post.find((p)=> id===p.id);
+    console.log(post)
+    res.send("id working")
 
 })
 
@@ -35,9 +46,10 @@ app.get("/posts/new",(req,res)=>{
 app.post("/posts",(req,res)=>{
     let {username,content}=req.body;
 
-    posts.push({username,content})
+    posts.push({username,content})  
 
     res.send('post request working')
+    res.redirect("/posts")
 })
 
 
@@ -45,3 +57,4 @@ app.post("/posts",(req,res)=>{
 app.listen(port,()=>{
     console.log("Listen to port 8081")  
 })
+// Redirect is used for connecting pages;
